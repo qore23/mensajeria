@@ -46,7 +46,7 @@ def enviarCorreo():
     mensaje = request.args.get('contenido')
 
     message = Mail(
-        from_email='ing.tolosa@gmail.com',
+        from_email='amilenadurte@gmail.com',
         to_emails=destino,
         subject=asunto,
         html_content=mensaje)
